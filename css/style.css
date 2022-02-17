@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* palette colori  */
 :root{
     --cuore:#000000;
     --cuorebg:#ffffff;
@@ -73,4 +73,11 @@
 .old-price{
     text-decoration: line-through;
 }
+
+.product>img{
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+}
+ 
 

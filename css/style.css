@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cuore:#000000;
+    --cuorebg:#ffffff;
+    --firstbadge:#EB0037;
+    --secondbadge:#00875A;
+    --badgetext:#ffffff;
+    --salep:#EB0037;
+
+}
+.products{
+    width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+    
+    
+}
+
+.product{
+    display: inline-block;  
+    position: relative; 
+    margin: 1rem;
+  
+}
+
+.firstbg{
+    position: absolute;
+    bottom: 90px;
+    left: -1px;
+}
+.secondbg{
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+}
+.badge{
+    padding: 4px;
+    font-size: 1rem;
+    color: var(--badgetext);
+    
+}
+.bg_green{
+    background-color: var(--secondbadge)
+}
+.bg_red{
+    background-color: var(--firstbadge);
+}
+
+
+.like{
+    position: absolute;
+    top: 20px;
+    right: -1px;
+    color: var(--cuore);
+    background-color: var(--cuorebg);
+    font-size: 30px;
+    padding: 20px;  
+}
+
+.product-text{
+    text-align: left;
+}
+
+.sale-price{
+    color: var(--salep);
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
